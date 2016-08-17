@@ -1,6 +1,6 @@
 # Functional Requirements
 ## Use Cases
-[use case diagram]()
+[[https://github.com/byron1st/my-workshop-doc/blob/master/images/usecase-diagram-2016-08-17.png|alt='use case diagram']]
 ### UC01: View the products/sales
 * Milestone: 0.1.0
 * Complete: false
