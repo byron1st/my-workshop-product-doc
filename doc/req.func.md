@@ -45,6 +45,8 @@
 * Milestone: 0.3.0
 * Complete: false
 
+MS Excel 파일에서 product, order 리스트를 한번에 입력함. 입력 후 새로 입력된 order들을 새로운 sale로 구성.
+
 ### UC12: Sort
 * Milestone: 0.3.0
 * Complete: false
