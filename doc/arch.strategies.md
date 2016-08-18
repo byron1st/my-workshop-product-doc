@@ -2,7 +2,7 @@
 * {QA01, QA02} from [Quality Attributes](https://github.com/byron1st/my-workshop-doc/tree/master/doc/req.qa.md)
 
 # 설계전략
-## AS01: Flux Architecture 적용
+## AS01: Flux Architecture Style 적용
 * 근거: QA01, QA02
 
 Flux Architecture의 단일화된 Dispatcher-Action 구조는 데이터를 변경시키는 기능을 Action 파일 내에 집중시키므로 QA02를 해결한다.
@@ -20,3 +20,8 @@ Electron은 실행 시 라이브러리를 로드하기 때문에, Electron 앱�
 * 근거: QA01
 
 UI가 제대로 자리 잡혀있는지를 보기 위해, 개발 중 Electron 앱을 실행 시킬 때는 테스트 모드로 작동한다. 테스트 모드에 실행될 경우, 미리 정의된 세이브 파일에서 데이터를 로드한다. 테스트 모드 여부를 저장하고 있는 설정 파일은 빌드의 자동화를 위해 JSON 파일로 저장하며, 다른 설정 파일과는 분리시킨다.
+
+## AS04: Client-Server Architecture Style 적용
+* 근거: QA02
+
+Electron의 `Main` 프로세스와 `Renderer` 프로세스를 Client-Server 스타일로 설계한다. `Main` 프로세스에 프로그램의 실행, 전역 메뉴 기능, Persistence 저장 기능을 할당하고 UI와 연관된 기능은 `Renderer` 프로세스에 할당함으로써 역할을 명확히 분할하여 QA02를 해결한다.
