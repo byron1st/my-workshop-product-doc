@@ -5,7 +5,7 @@
 # Level 1: 논리 뷰
 ## 다이어그램들
 ### LO01: 실행 측면 시스템 구조
-![LO01](https://github.com/byron1st/my-workshop-doc/blob/master/doc/images/logical-view-lo01-2016-08-18.png)
+![LO01](https://github.com/byron1st/my-workshop-doc/blob/master/images/logical-view-lo01-2016-08-18.png)
 * 설계 근거: `AS04`
 
 #### 추적성 매핑
