@@ -1,6 +1,6 @@
 @Import
-* all as `f` from [Functional Requirements](https://github.com/byron1st/my-workshop-doc/tree/master/doc/req.func.md)
-* {`AS04`} from [설계전략](https://github.com/byron1st/my-workshop-doc/tree/master/doc/arch.strategies.md)
+* all as `f` from [Functional Requirements](https://github.com/byron1st/my-workshop-doc/blob/master/doc/req.func.md)
+* {`AS04`} from [설계전략](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.strategies.md)
 
 # Level 1: 시나리오 뷰
 ## 공통 사항

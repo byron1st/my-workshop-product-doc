@@ -1,6 +1,6 @@
 @Import
-* all as `sc` from [1레벨 시나리오 뷰](https://github.com/byron1st/my-workshop-doc/tree/master/doc/arch.views.1.scenario.md)
-* {`AS04`} from [설계전략](https://github.com/byron1st/my-workshop-doc/tree/master/doc/arch.strategies.md)
+* all as `sc` from [1레벨 시나리오 뷰](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.views.1.scenario.md)
+* {`AS04`} from [설계전략](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.strategies.md)
 
 # Level 1: 논리 뷰
 ## 다이어그램들
