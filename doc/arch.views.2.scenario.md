@@ -70,3 +70,35 @@ UI는 [React 라이브러리](https://facebook.github.io/react/)를 선정한다
     * `Action`
     * `IPC`
     * `React UI components`
+* 커넥터 (생략)
+
+## 레벨 1 설계로부터의 추적성
+* `sc.App`
+  * `IPC`
+  * `DB`
+  * `Main`
+  * `AppMode`
+  * `Settings`
+  * `MainMenu`
+  * `Dispatcher`
+  * `Action`
+* `sc.MainWindow`
+  * `Dispatcher`
+  * `Store`
+  * `Action`
+  * `IPC`
+  * `React UI components`
+* `sc.request()`
+  * `request()`
+* `sc.reqFunc()`
+  * `SC05`
+* `sc.updateUI()`
+  * `SC08`
+* `sc.appFunc()`
+  * `SC12`
+* `sc.refreshUI()`
+  * `refreshUI()`
+* `init()`
+  * `SC09`
+* `getInitData()`
+  * `SC08`: `actionType = IPC`
