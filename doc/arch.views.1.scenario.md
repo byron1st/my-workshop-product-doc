@@ -16,7 +16,7 @@
 사용자가 실행한 기능이 메인 앱에서 수행된다.
 
 ### SC02: 사용자가 메인 창의 UI를 통해 실행하는 기능 시나리오 2
-![SC02](https://github.com/byron1st/my-workshop-doc/blob/master/images/scenario-view-sc02-2016-08-18.png)
+![SC02](https://github.com/byron1st/my-workshop-doc/blob/master/images/scenario-view-sc02-2016-08-19.png)
 * 관련 기능들: `f.UC12`, `f.UC13`
 * 설계 근거: `AS04`
 
