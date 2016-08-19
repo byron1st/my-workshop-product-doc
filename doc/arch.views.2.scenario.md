@@ -1,6 +1,5 @@
 @Import
-* all as `f` from [Functional Requirements](https://github.com/byron1st/my-workshop-doc/blob/master/doc/req.func.md)
-* {`AS01`, `AS02`, `AS04`} from [설계전략](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.strategies.md)
+* {`AS01`, `AS03`, `AS02`, `AS04`} from [설계전략](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.strategies.md)
 * {`SC01`, `SC02`, `SC03`, `SC04`} from [1레벨 시나리오 뷰](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.views.1.scenario.md)
 * all as `sc` from 도출된 요소들 of [1레벨 시나리오 뷰](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.views.1.scenario.md)
 
