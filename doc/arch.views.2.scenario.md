@@ -3,7 +3,7 @@
 * {`SC01`, `SC02`, `SC03`, `SC04`} from [1레벨 시나리오 뷰](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.views.1.scenario.md)
 * all as `sc` from 도출된 요소들 of [1레벨 시나리오 뷰](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.views.1.scenario.md)
 
-# 2레벨: 시나리오 뷰
+# 레벨 2: 시나리오 뷰
 ## 공통 사항
 * 모든 다이어그램에서 `User`에서 시작되는 `emitEvent()`는 `User`가 직접 UI 요소를 마우스/키보드 등으로 실행시키는 것을 의미한다.
 * `User`로 반환되는 `show()`는 UI가 변경되어 User가 눈으로 이를 확인함을 의미한다.

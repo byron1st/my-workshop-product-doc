@@ -1,7 +1,7 @@
 @Import
 * {`AS01`, `AS02`, `AS04`} from [설계전략](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.strategies.md)
 * all from 시나리오 of [2레벨 시나리오 뷰](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.views.2.scenario.md)
-* all as `sc` from 도출된 요소들 of [2레벨 시나리오 뷰](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.views.2.scenario.md)
+* all as `l` from 도출된 요소들 of [1레벨 논리 뷰](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.views.1.logical.md)
 
 # 레벨 2: 논리 뷰
 ## 다이어그램들
