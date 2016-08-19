@@ -11,6 +11,5 @@
   2. [논리 뷰](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.views.2.logical.md)
   3. [모듈 뷰](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.views.2.module.md)
 3. 3레벨 설계
-  1. 모듈 뷰
+  1. 코드 뷰
   2. 실행 뷰
-  3. 코드 뷰
