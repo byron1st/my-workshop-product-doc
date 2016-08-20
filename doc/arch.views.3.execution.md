@@ -9,7 +9,9 @@
 ### EX03: 오브젝트 전송 구조
 ![EX03](https://github.com/byron1st/my-workshop-doc/blob/master/images/execution-view-ex03-2016-08-21.png)
 
-* `rel1`: DB에서 꺼낸 오브젝트를 바로 수정하면, DB와 쌍방향 동기화가 될 수 있다. 그러한 사태를 막기 위해 Immutable 객체로 변환 후 필요한 작업을 하여 전송한다.
-* `rel2`: 이유는 모르겠지만, Immutable로 감싸진 오브젝트도 Electron IPC를 거치면 plain 오브젝트로 변경된다.
-* `rel3`: Immutable로 감싸진 store와 일관성을 유지하기 위해 IPC로 전송받은 오브젝트를 Immutable로 감싼다.
-* `rel4`: Store 변경을 위해 UI 값들을 action으로 보낼때는 쌍방향 동기화로 UI에 의도치않은 변화가 오는걸 방지하기 위해, Immutable로 감싸서 보낸다.
+* `rel1`: DB에서 꺼낸 오브젝트를 바로 수정하면, DB와 쌍방향 동기화가 될 수 있다. 그러한 사태를 막기 위해 `Immutable` 객체로 변환 후 필요한 작업을 하여 전송한다.
+* `rel2`: 이유는 모르겠지만, `Immutable`로 감싸진 오브젝트도 Electron IPC를 거치면 plain 오브젝트로 변경된다.
+* `rel3`: `Immutable`로 감싸진 store와 일관성을 유지하기 위해 IPC로 전송받은 오브젝트를 `Immutable`로 감싼다.
+* `rel4`: Store 변경을 위해 UI 값들을 action으로 보낼때는 쌍방향 동기화로 UI에 의도치않은 변화가 오는걸 방지하기 위해, `Immutable`로 감싸서 보낸다.
+* `rel5`: `app/ipc`는 받은 값을 그대로 전달만하므로, 굳이 `Immutable`로 감쌀 필요 없다.
+* `rel6`: `ReactUIComponents`내에서는 `props`으로 전달되므로 `Immutable`로 감쌀 필요 없다.
