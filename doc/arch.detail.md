@@ -1,7 +1,7 @@
 # 상세 설계
 ## Behavior Model
 ### B02: 프로그램 실행
-[프로그램 실행](https://github.com/byron1st/my-workshop-doc/blob/master/images/details-b02-2016-09-03.png)
+![프로그램 실행](https://github.com/byron1st/my-workshop-doc/blob/master/images/details-b02-2016-09-03.png)
 
 ## 함수들 정의
 ### Action들 정의
