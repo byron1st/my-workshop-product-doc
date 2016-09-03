@@ -1,5 +1,10 @@
 # 상세 설계
 ## Behavior Model
+### B01: 기능 실행
+![기능 실행](https://github.com/byron1st/my-workshop-doc/blob/master/images/details-b01-2016-09-03.png)
+
+MainWindow의 UI를 통한 (버튼 등) 실행 설계이다.
+
 ### B02: 프로그램 실행
 ![프로그램 실행](https://github.com/byron1st/my-workshop-doc/blob/master/images/details-b02-2016-09-03.png)
 
