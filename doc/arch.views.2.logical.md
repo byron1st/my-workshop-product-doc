@@ -16,22 +16,3 @@
 ### LO04: `l.App` 프로그램 로딩 시 구조
 ![LO04](https://github.com/byron1st/my-workshop-doc/blob/master/images/logical-view-lo04-2016-08-19.png)
 * 설계 근거: `AS02`, `AS03`, `SC09`, `SC13`
-
-## 도출된 요소들 및 레벨 1 설계로부터의 추적성
-* 컴포넌트
-  * `l.MainWindow`
-    * `ReactUIComponents`
-    * `Dispatcher`
-    * `IPC`
-    * `Store`
-    * `Action`
-  * `l.App`
-    * `Dispatcher`
-    * `IPC`
-    * `Action`
-    * `Main`
-    * `MainMenu`
-    * `DB`
-    * `AppMode`
-    * `Settings`
-* 커넥터 (생략)

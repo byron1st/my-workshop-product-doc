@@ -13,6 +13,3 @@
 3. 3레벨 설계
   1. [코드 뷰](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.views.3.code.md)
   2. [실행 뷰](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.views.3.execution.md)
-
-## 각 뷰 요소들의 추적성 관리
-[추적성 문서](https://www.icloud.com/numbers/0EsxprCN1YUCOVW_0H7-ktAgQ#traceability)

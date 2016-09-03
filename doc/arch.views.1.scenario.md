@@ -34,16 +34,3 @@
 * 설계 근거: `AS04`
 
 사용자가 프로그램을 실행 시켰을 때 프로그램이 초기 데이터를 불러오고 UI 등을 생성하는 시나리오이다.
-
-## 도출된 요소들
-* 컴포넌트
-  * `MainWindow`
-  * `App`
-* 커넥터
-  * `request()`
-  * `reqFunc()`
-  * `updateUI()`
-  * `appFunc()`
-  * `refreshUI()`
-  * `init()`
-  * `getInitData()`

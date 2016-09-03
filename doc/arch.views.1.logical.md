@@ -9,24 +9,3 @@
 * 설계 근거: `AS04`
 
 정보를 저장하는 기술로 [LokiJS](http://lokijs.org)를 선택하였다.
-
-#### 추적성 매핑
-* `MainWindow` (컴포넌트)
-  * `sc.MainWindow`
-  * `sc.updateUI()`
-* `App` (컴포넌트)
-  * `sc.App`
-  * `sc.reqFunc()`
-  * `sc.init()`
-  * `sc.appFunc()`
-* `IPC` (커넥터)
-  * `sc.request()`
-  * `sc.getInitData()`
-  * `sc.refreshUI()`
-
-## 도출된 요소들
-* 컴포넌트
-  * `MainWindow`
-  * `App`
-* 커넥터
-  * `IPC`
