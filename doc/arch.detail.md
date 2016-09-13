@@ -2,11 +2,11 @@
 ## Behavior Model
 ### B01: 기능 실행
 ![기능 실행](https://github.com/byron1st/my-workshop-doc/blob/master/images/details-b01-2016-09-03.png)
-
-MainWindow의 UI를 통한 (버튼 등) 실행 설계이다.
+MainWindow의 UI를 통한 (버튼 등) 실행 설계이다. Action Name, IPC Name, DB function Name은 아래 '함수들 정의' 항목에서 확인할 수 있다.
 
 ### B02: 프로그램 실행
-![프로그램 실행](https://github.com/byron1st/my-workshop-doc/blob/master/images/details-b02-2016-09-03.png)
+![프로그램 실행](https://github.com/byron1st/my-workshop-doc/blob/master/images/details-b02-2016-09-13.png)
+프로그램이 처음 실행될 때의 실행 설계이다.
 
 ## 함수들 정의
 ### Action들 정의
