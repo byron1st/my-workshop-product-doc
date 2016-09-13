@@ -19,16 +19,4 @@ MainWindow의 UI를 통한 (버튼 등) 실행 설계이다. Action Name, IPC Na
 [DB 함수들 정의](https://www.icloud.com/numbers/0z6cmqVq8wW6H0fN9STF3q0ag#dbFunc)
 
 ## `mainwindow/flux/store.js`의 데이터 구조 설계
-```
-{
-	itemType: string,
-	mainList: array,
-	subList: array,
-	modalList: array,
-	mainListEdit: bool,
-	itemEdit: bool,
-	modalEdit: bool,
-	selected: object,
-	modalSelected: object
-}
-```
+[Store 구조 정의](https://www.icloud.com/numbers/0NBqQIbu3GQ713QQ-Tpdcde4A#store)
