@@ -11,6 +11,7 @@ MainWindow의 UI를 통한 (버튼 등) 실행 설계이다. Action Name, IPC Na
 ## 함수들 정의
 ### Action들 정의
 [Action들 정의](https://www.icloud.com/numbers/03hMQehmK-jVBH7SfOZEUZnQw#actions)
+상태 Transition 열은 [UI 설계](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.ui.md)의 상태 다이어그램의 상태 Transition을 의미한다.
 
 ### IPC 정의
 [IPC 정의](https://www.icloud.com/numbers/0lI96VlolhAmutnLItrVn8TLg#ipc)

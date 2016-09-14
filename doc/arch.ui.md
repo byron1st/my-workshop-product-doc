@@ -12,6 +12,7 @@
 ### UI 상태 다이어그램
 #### U01: UI 상태 다이어그램
 ![UI 상태 다이어그램](https://github.com/byron1st/my-workshop-doc/blob/master/images/ui-u01-2016-09-14.png)
+A0 ~ A8은 상태 Transition들의 ID를 의미하며, [상세 설계](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.detail.md)의 Action들 정의에 사용된다. Action들은 각 상태 Transition에 매핑된다.
 
 ### React Component들
 #### U02: React Component들 계층 구조
