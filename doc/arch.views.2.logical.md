@@ -10,7 +10,7 @@
 * 설계 근거: `AS01`, `AS02`, `SC06`, `SC07`, `SC08`
 
 ### LO03: `l.App` 실행 시 구조
-![LO03](https://github.com/byron1st/my-workshop-doc/blob/master/images/logical-view-lo03-2016-08-19.png)
+![LO03](https://github.com/byron1st/my-workshop-doc/blob/master/images/logical-view-lo03-2016-09-14.png)
 * 설계 근거: `AS01`, `AS02`, `SC05`, `SC12`
 
 ### LO04: `l.App` 프로그램 로딩 시 구조
