@@ -10,6 +10,11 @@ MainWindow의 UI를 통한 (버튼 등) 실행 설계이다. Action Name, IPC Na
 
 프로그램이 처음 실행될 때의 실행 설계이다.
 
+### B03: 에러 처리
+![에러처리](https://github.com/byron1st/my-workshop-doc/blob/master/images/details-b03-2016-09-16.png)
+
+ipc에서 에러가 발생 시 dialog.js를 통해 표시한다.
+
 ## 함수들 정의
 ### Action들 정의
 [Action들 정의](https://www.icloud.com/numbers/03hMQehmK-jVBH7SfOZEUZnQw#actions)
