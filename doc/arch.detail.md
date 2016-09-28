@@ -1,17 +1,17 @@
 # 상세 설계
 ## Behavior Model
 ### B01: 기능 실행
-![기능 실행](https://github.com/byron1st/my-workshop-doc/blob/master/images/details-b01-2016-09-03.png)
+![기능 실행](../images/details-b01-2016-09-03.png)
 
 MainWindow의 UI를 통한 (버튼 등) 실행 설계이다. Action Name, IPC Name, DB function Name은 아래 '함수들 정의' 항목에서 확인할 수 있다.
 
 ### B02: 프로그램 실행
-![프로그램 실행](https://github.com/byron1st/my-workshop-doc/blob/master/images/details-b02-2016-09-14.png)
+![프로그램 실행](../images/details-b02-2016-09-14.png)
 
 프로그램이 처음 실행될 때의 실행 설계이다.
 
 ### B03: 에러 처리
-![에러처리](https://github.com/byron1st/my-workshop-doc/blob/master/images/details-b03-2016-09-16.png)
+![에러처리](../images/details-b03-2016-09-16.png)
 
 ipc에서 에러가 발생 시 dialog.js를 통해 표시한다.
 
@@ -19,7 +19,7 @@ ipc에서 에러가 발생 시 dialog.js를 통해 표시한다.
 ### Action들 정의
 [Action들 정의](https://www.icloud.com/numbers/03hMQehmK-jVBH7SfOZEUZnQw#actions)
 
-상태 Transition 열은 [UI 설계](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.ui.md)의 상태 다이어그램의 상태 Transition을 의미한다.
+상태 Transition 열은 [UI 설계](../doc/arch.ui.md)의 상태 다이어그램의 상태 Transition을 의미한다.
 
 ### IPC 정의
 [IPC 정의](https://www.icloud.com/numbers/0lI96VlolhAmutnLItrVn8TLg#ipc)
