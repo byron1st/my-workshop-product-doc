@@ -17,5 +17,5 @@
 A0 ~ A8은 상태 Transition들의 ID를 의미하며, [상세 설계](./arch.detail.md)의 Action들 정의에 사용된다. Action들은 각 상태 Transition에 매핑된다.
 
 ### React Component들
-#### <a name='bookmark'></a>U02: React Component들 계층 구조
+#### U02: React Component들 계층 구조
 ![React Component들 계층 구조](../images/ui-u02-2016-09-14.png)
