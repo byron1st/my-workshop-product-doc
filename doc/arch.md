@@ -7,4 +7,4 @@
 ## 추적성 기록 문서
 [추적성 문서](https://www.icloud.com/numbers/0EsxprCN1YUCOVW_0H7-ktAgQ#traceability)
 
-[링크 테스트](./arch.detail.md)
+![이미지 링크 테스트](../images/code-view-db-2016-08-19.png)
