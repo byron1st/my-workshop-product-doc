@@ -1,6 +1,6 @@
 @Import
-* all as `f` from [Functional Requirements](https://github.com/byron1st/my-workshop-doc/blob/master/doc/req.func.md)
-* {`AS04`} from [설계전략](https://github.com/byron1st/my-workshop-doc/blob/master/doc/arch.strategies.md)
+* all as `f` from [Functional Requirements](./req.func.md)
+* {`AS04`} from [설계전략](./arch.strategies.md)
 
 # Level 1: 시나리오 뷰
 ## 공통 사항
@@ -10,26 +10,26 @@
 
 ## 다이어그램들
 ### SC01: 사용자가 메인 창의 UI를 통해 실행하는 기능 시나리오 1
-![SC01](https://github.com/byron1st/my-workshop-doc/blob/master/images/scenario-view-sc01-2016-08-18.png)
+![SC01](../images/scenario-view-sc01-2016-08-18.png)
 * 관련 기능들: `f.UC01`, `f.UC02`, `f.UC03`, `f.UC04`, `f.UC05`, `f.UC06`, `f.UC07`, `f.UC08`, `f.UC14`, `f.``UC15`, `f.UC16`
 * 설계 근거: `AS04`
 
 사용자가 실행한 기능이 메인 앱에서 수행된다.
 
 ### SC02: 사용자가 메인 창의 UI를 통해 실행하는 기능 시나리오 2
-![SC02](https://github.com/byron1st/my-workshop-doc/blob/master/images/scenario-view-sc02-2016-08-19.png)
+![SC02](../images/scenario-view-sc02-2016-08-19.png)
 * 관련 기능들: `f.UC12`, `f.UC13`
 * 설계 근거: `AS04`
 
 사용자가 실행한 기능이 UI 수준에서만 수행된다.
 
 ### SC03: 사용자가 메인 메뉴를 통해 실행하는 기능 시나리오
-![SC03](https://github.com/byron1st/my-workshop-doc/blob/master/images/scenario-view-sc03-2016-08-18.png)
+![SC03](../images/scenario-view-sc03-2016-08-18.png)
 * 관련 기능들: `f.UC09`, `f.UC10`, `f.UC11`
 * 설계 근거: `AS04`
 
 ### SC04: 프로그램이 실행될 때 시나리오
-![SC04](https://github.com/byron1st/my-workshop-doc/blob/master/images/scenario-view-sc04-2016-08-18.png)
+![SC04](../images/scenario-view-sc04-2016-08-18.png)
 * 관련 기능들: `f.UC01`, `f.UC02`, `f.UC03`, `f.UC14`, `f.UC15`
 * 설계 근거: `AS04`
 

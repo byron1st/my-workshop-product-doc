@@ -1,5 +1,5 @@
 @Import
-* {`QA01`, `QA02`} from [Quality Attributes](https://github.com/byron1st/my-workshop-doc/blob/master/doc/req.qa.md)
+* {`QA01`, `QA02`} from [Quality Attributes](./req.qa.md)
 
 # 설계전략
 ## AS01: Flux Architecture Style 적용
